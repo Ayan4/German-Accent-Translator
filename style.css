@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    /* overflow: hidden; */
+}
+
+header{
+    background: #AF0011;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.logo{
+    width: 400px;
+    /* border: 1px red solid; */
+}
+
+main{
+    max-width: 1440px;
+    margin: auto;
+    padding: 30px 0 30px 0;
+    position: relative;
+    /* background: url(./german\ 1.jpg); */
+    /* background-position: center; */
+}
+
+.german{
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+textarea{
+    width: 720px;
+    height: 17vh;
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px black solid;
+}
+
+#text-input{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+#output{
+    width: 720px;
+    height: 13vh;
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px black solid;
+    overflow-y: scroll;
+    background: white;
+}
+
+#click{
+    border: 2px solid #f3f3f3;
+    width: 100px;
+    height: 40px;
+    border-radius: 2px;
+    background: #AF0011;
+    font-size: 17px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 5px;
+    color: #f3f3f3;
+}
+
+#clear{
+    border: 2px solid #f3f3f3;
+    width: 100px;
+    height: 40px;
+    border-radius: 2px;
+    background: #AF0011;
+    font-size: 17px;
+    cursor: pointer;
+    display: inline-block;
+    color: #f3f3f3;
+}
+
+.trans{
+    display: block;
+    width: 150px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.center{
+    /* border: 1px black solid; */
+    width: 720px;
+    margin: auto;
+}
+
+footer{
+    background: #AF0011;
+    padding: 20px;
+    color: #f3f3f3;
+}
+
+.footer-center{
+    width: 720px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1000px){
+    textarea{
+        width:100%; 
+    }
+
+    #output{
+        width:100%; 
+    }
+
+    .center{
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .footer-center{
+        width: 100%;
+    }
+}
