@@ -9,7 +9,7 @@ const getTranslationURL = (text) =>{
     return url + '?' + 'text=' + text
 }
 
-const errorHandler = (error) =>{
+const errorHandler = () =>{
     alert(`Cannot leave blank`)
 }
 
